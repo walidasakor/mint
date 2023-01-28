@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+}
+
+
+.input-area{
+    
+    padding-left: 25px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+    background-size: 20px;
+    border-radius: 30px;
+    width: 25rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(3, 245, 250);
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.logo{
+    width: 160px;
+    height: 30px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    list-style-type: none;
+    background-color: black;
+    color: #fff;
+}
+
+.buy-button{
+    background-color: black;
+    color: #fff;
+    padding: 18px;
+    border-radius: 4px;
+    margin-top: 100px;
+}
+
+.space-me{
+    margin-left: 30px;
+}
+
+.background-image{
+    background-image: url("https://www.theghanareport.com/wp-content/uploads/2022/10/Gold-1-750x430.jpg");
+    color: #fff;
+    background-size: cover;
+    height: 70vh;
+}
+
+.font-increase{
+    font-size: 3em;
+}
+
+.font-decrease{
+    font-size: 1em;
+    margin-top: 30px;
+}
+
+.flex1{
+    display: flex;
+    justify-content: space-around;
+}
