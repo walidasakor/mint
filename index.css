@@ -89,3 +89,28 @@ ul{
     display: flex;
     gap: 8px;
 }
+
+
+.silver-section{
+    display: flex;
+}
+
+.kilo-coin{
+    height: 60%;
+    width: 60%;
+}
+
+.clipart{
+    width: 5%;
+    height: 5%;
+}
+
+.silver-nav{
+    display: flex;
+    background-color: cyan;
+}
+
+.sil{
+    margin-left: 40em;
+    margin-top: 10px;
+}
