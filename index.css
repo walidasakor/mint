@@ -228,3 +228,8 @@ footer > div > div > p{
 .end > div > p{
     color: hsl(236, 13%, 42%);
 }
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
