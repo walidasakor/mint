@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: inter;
+    font-size: 14px;
+}
+@font-face{
+    font-family: inter;
+    src: url("fonts/static/Inter-Medium.ttf");
+}
+
+#svg{
+    width:30px;
+}
+.head1{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background: white;
+    padding: 0 20px;
+    
+}
+
+.head1 > .middle > img{
+    width: 150px;
+    
+}
+.head2{
+    display: flex;
+    justify-content: center;
+    background: whitesmoke;
+    padding: 20px 0;
+    margin-bottom: 10px;
+}
+.filters{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+.filters > div{
+    display: flex;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+.top, .middle, .bottom{
+    display: flex;
+}
+.middle{
+    margin: 40px 0;
+}
+.bottom{
+    gap: 20px;
+}
+.top > img, .middle > img, .bottom > img{
+    width: 400px;
+}
+footer{
+    background: whitesmoke;
+    display: flex;
+    width: 100%;
+    padding: 100px 20px 50px;
+    margin-top: 10px;
+    border-bottom: 10px ridge;
+}
+footer > div{
+    width: 25%;
+}
+
+footer > div > h2{
+    margin-bottom: 20px;
+}
+footer > div > div > p{
+    line-height: 2.0;
+    color: hsl(236, 13%, 42%);
+}
+
+.subscription > p{
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: hsl(236, 13%, 42%);
+}
+.subscription > input{
+    display: block;
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+}
+.subscription > button{
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 4px;
+    background: black;
+    color: white;
+}
+.daysandtime{
+    margin: 40px 0 0 30px;
+    display: flex;
+    gap: 40px;
+}
+.daysandtime > div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.daysandtime > div > p{
+    color: hsl(236, 13%, 42%);
+}
+.Payment_icons{
+    margin: 40px 0 0 60px;
+}
+.end{
+    background: whitesmoke;
+    display: flex;
+    padding: 50px 20px;
+    width: 100%;
+}
+.end_left{
+    width: 70%;
+}
+.end > div > p{
+    color: hsl(236, 13%, 42%);
+}
+
+.bottom_nav{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    bottom: 0;
+    background: white;
+    margin-top: 10px;
+    padding: 10px 20px;
+
+}
