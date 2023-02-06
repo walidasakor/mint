@@ -18,10 +18,11 @@ body{
     background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
     background-size: 20px;
     border-radius: 30px;
-    width: 25rem;
+    width: 30rem;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(3, 245, 250);
+    background-color: #F5F5F5;
+    border-style: none;
 }
 
 header{
@@ -78,234 +79,6 @@ ul{
     display: flex;
     justify-content: space-around;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .silver_bullion{
@@ -386,4 +159,24 @@ footer > div > h2{
 footer > div > div > p{
     line-height: 2.0;
     color: hsl(236, 13%, 42%);
+}
+
+.coin{
+    width: 280px;
+    height: 280px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.explore-section{
+    background-color: cyan;
+    height: 100vh;
+}
+
+.coin-section{
+    display: flex;
+    gap: 10px;
+    margin-top: 8em;
 }
