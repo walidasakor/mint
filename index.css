@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     font-family: inter;
@@ -18,9 +19,9 @@ body{
     background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
     background-size: 20px;
     border-radius: 30px;
-    width: 30rem;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    width: 33rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
     background-color: #F5F5F5;
     border-style: none;
 }
@@ -78,6 +79,7 @@ ul{
 .flex1{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 40px;
 }
 
 
@@ -173,10 +175,19 @@ textarea:focus, input:focus{
 .explore-section{
     background-color: cyan;
     height: 100vh;
+    padding: 7px;
 }
 
 .coin-section{
     display: flex;
     gap: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.explore{
     margin-top: 8em;
 }
