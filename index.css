@@ -456,7 +456,7 @@ textarea:focus, input:focus{
 }
 
 .coin-section{
-    display: flex;
+    display: flex !important;
     gap: 10px;
 }
 
