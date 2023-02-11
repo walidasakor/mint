@@ -89,12 +89,44 @@ nav > ul > li > a{
     cursor: pointer;
 }
 
+.coin-section{
+    display: flex;
+    justify-content: center;
+}
+
+.coin{
+    width: 90%;
+    height: 90%;
+}
+
+.explore-section{
+    background-color: cyan;
+    height: 100vh;
+    padding: 7px;
+}
+
+.explore{
+    margin-top: 7em;
+}
+
+.silver-nav{
+    display: flex;
+}
+
+.clipart{
+    width: 120px;
+    height: 120px;
+}
 
 
+.sil{
+    margin-left: 35em;
+    margin-bottom: 12px;
+}
 
-
-
-
+.platinum-images{
+    display: flex;
+}
 
 
 
@@ -440,6 +472,7 @@ footer > div > div > p{
 }
 .end > div > p{
     color: hsl(236, 13%, 42%);
+}
 .coin{
     width: 280px;
     height: 280px;
@@ -449,11 +482,6 @@ textarea:focus, input:focus{
     outline: none;
 }
 
-.explore-section{
-    background-color: cyan;
-    height: 100vh;
-    padding: 7px;
-}
 
 .coin-section{
     display: flex !important;
@@ -463,24 +491,6 @@ textarea:focus, input:focus{
 a{
     text-decoration: none;
     color: #fff;
-}
-
-.explore{
-    margin-top: 8em;
-}
-
-.clipart{
-    width: 120px;
-    height: 120px;
-}
-
-.silver-nav{
-    display: flex;
-}
-
-.sil{
-    margin-left: 35em;
-    margin-bottom: 12px;
 }
 
 .kilo-coin{
@@ -495,10 +505,6 @@ height: 70%;
 .plat{
     width: 80%;
     height: 80%;
-}
-
-.platinum-images{
-    display: flex;
 }
 
 img > p{
