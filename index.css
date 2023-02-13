@@ -100,7 +100,7 @@ nav > ul > li > a{
 }
 
 .explore-section{
-    background-color: cyan;
+    background-color: whitesmoke;
     height: 100vh;
     padding: 7px;
 }
@@ -136,13 +136,9 @@ nav > ul > li > a{
     padding-top: 5px;
 }
 
-
-
-
-
-
-
-
+.move{
+    margin-left: 25px;
+}
 
 
 
@@ -506,6 +502,7 @@ height: 70%;
 
 .silver-section{
     display: flex;
+    margin-top: 70px;
 }
 
 .plat{
