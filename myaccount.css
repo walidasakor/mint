@@ -6,14 +6,26 @@
 }
 
 body{
-    font-family: inter;
-    font-size: 14px;
-    letter-spacing: 1.2px;
+    font-family: jost;
+    font-size: 14.5px;
+
 }
 
 @font-face{
-    font-family: inter;
-    src: url("fonts/static/Inter-Medium.ttf");
+    font-family: jost;
+    src: url("fonts/jost/Jost-VariableFont_wght.ttf")
+}
+.input-area{
+    
+    padding-left: 25px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+    background-size: 20px;
+    border-radius: 30px;
+    width: 33rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #F5F5F5;
+    border-style: none;
 }
 
 header{
@@ -41,7 +53,7 @@ ul{
 .myaccount{
     display: flex;
     background: whitesmoke;
-    gap: 370px;
+    gap: 350px;
     padding: 10px 0 0 100px;
 }
 
@@ -54,6 +66,9 @@ ul{
     line-height: 2.0;
 }
 
+.info > a{
+    color: black;
+}
 .main{
     border: 3px dashed rgba(211, 193, 193, 0.514);
     padding: 20px;
@@ -87,8 +102,11 @@ form{
     display: flex;
     justify-content: space-between;
 }
-
-button{
+.end1 > p > a{
+    color: rgb(59, 57, 57);
+    text-decoration: underline;
+}
+.sendbutton{
     background: rgba(250, 86, 81, 0.938);
     width: 400px;
     padding: 15px;
