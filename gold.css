@@ -6,12 +6,12 @@
 
 
 body{
-    font-family: inter;
-    font-size: 14px;
+    font-family: jost;
+    font-size: 14.5px;
 }
 @font-face{
-    font-family: inter;
-    src: url("fonts/static/Inter-Medium.ttf");
+    font-family: jost;
+    src: url("fonts/jost/Jost-VariableFont_wght.ttf")
 }
 
 #svg{
@@ -138,5 +138,8 @@ footer > div > div > p{
     background: white;
     margin-top: 10px;
     padding: 10px 20px;
+}
 
+.categories > img, .wishlist > img{ 
+    margin-left: 10px;
 }

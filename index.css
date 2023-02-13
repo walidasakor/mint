@@ -5,27 +5,39 @@
     scroll-behavior: smooth;
 }
 body{
-    font-family: inter;
-    font-size: 14px;
+    font-family: jost;
+    font-size: 14.5px;
     
 }
 @font-face{
-    font-family: inter;
-    src: url("fonts/static/Inter-Medium.ttf");
+    font-family: jost;
+    src: url("fonts/jost/Jost-VariableFont_wght.ttf");
 }
 .input-area{
-    
     padding-left: 25px;
-    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+    /* background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right; */
     background-size: 20px;
     border-radius: 30px;
-    width: 33rem;
+    width: 40rem;
     padding-top: 12px;
     padding-bottom: 12px;
     background-color: #F5F5F5;
     border-style: none;
+    
 }
 
+.input-area > input{
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-top: 0;
+}
+
+.input-area > img{
+    margin-left: 400px;
+    width: 25px;
+    cursor: pointer;
+}
 header{
     display: flex;
     justify-content: space-around;
@@ -48,12 +60,15 @@ ul{
     color: #fff;
 }
 
+ul > li > a:hover{
+    border-bottom: 2px solid;
+}
 .buy-button{
     background-color: black;
     color: #fff;
-    padding: 18px;
+    padding: 20px 30px;
     border-radius: 4px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .space-me{
@@ -61,7 +76,7 @@ ul{
 }
 
 .background-image{
-    background-image: url("https://www.theghanareport.com/wp-content/uploads/2022/10/Gold-1-750x430.jpg");
+    background-image: url("iimages/gold\ background.webp");
     color: #fff;
     background-size: cover;
     height: 70vh;
@@ -180,7 +195,7 @@ nav > ul > li > a{
 .coins{
     margin-top: 80px;
 }
-.coins > h1{
+h1{
     font-size: 4rem;
 }
 .coins > p{
