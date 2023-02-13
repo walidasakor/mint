@@ -195,7 +195,7 @@ nav > ul > li > a{
 .coins{
     margin-top: 80px;
 }
-h1{
+.coins > h1{
     font-size: 4rem;
 }
 .coins > p{
