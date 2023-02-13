@@ -115,7 +115,7 @@ nav > ul > li > a{
 }
 
 .explore-section{
-    background-color: cyan;
+    background-color: whitesmoke;
     height: 100vh;
     padding: 7px;
 }
@@ -143,226 +143,37 @@ nav > ul > li > a{
     display: flex;
 }
 
-.explore{
-    font-size: 3rem;
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 1;
+    padding-top: 5px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.move{
+    margin-left: 25px;
+}
+
+.myaccount{
+    display: flex;
+    background: whitesmoke;
+    gap: 370px;
+    padding: 10px 0 0 100px;
+}
+
+.image > img{
+    width: 150px;
+    height: 100px;
+}
+
+.big{
+    margin-bottom: 30px;
+}
+
+.recom{
+    background-color: #fff;
+}
 
 .silver_bullion{
     display: flex;
@@ -517,6 +328,7 @@ height: 70%;
 
 .silver-section{
     display: flex;
+    margin-top: 70px;
 }
 
 .plat{
