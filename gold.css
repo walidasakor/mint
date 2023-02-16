@@ -17,6 +17,7 @@ body{
 #svg{
     width:30px;
 }
+
 .head1{
     display: flex;
     justify-content: space-between;
@@ -24,7 +25,6 @@ body{
     top: 0;
     background: white;
     padding: 0 20px;
-    
 }
 
 .head1 > .middle > img{
@@ -37,6 +37,9 @@ body{
     background: whitesmoke;
     padding: 20px 0;
     margin-bottom: 10px;
+}
+.head2 > p > a{
+    color: black;
 }
 .filters{
     display: flex;
