@@ -51,7 +51,7 @@ header{
     height: 30px;
 }
 
-ul{
+.navigate{
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -70,7 +70,6 @@ ul > li > a:hover{
     padding: 20px 35px;
     border-radius: 4px;
     margin-top: 50px;
-    cursor: pointer;
 }
 
 .space-me{
@@ -320,7 +319,7 @@ textarea:focus, input:focus{
 
 a{
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 .kilo-coin{
@@ -340,4 +339,35 @@ height: 70%;
 
 img > p{
     text-align: center;
+}
+
+.paragraph{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.horizontal-line{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.buy-flex{
+    display: flex;
+}
+
+.buy-coin{
+    width: 90%;
+    height: 90%;
+}
+
+.related{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.describe{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
