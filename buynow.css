@@ -4,16 +4,17 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
 body{
     font-family: jost;
-    font-size: 14.5px;
-    
+    font-size: 14.5px;    
 }
 
 @font-face{
     font-family: jost;
     src: url("fonts/jost/Jost-VariableFont_wght.ttf");
 }
+
 .input-area{
     padding-left: 25px;
     /* background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right; */
@@ -23,8 +24,7 @@ body{
     padding-top: 12px;
     padding-bottom: 12px;
     background-color: #F5F5F5;
-    border-style: none;
-    
+    border-style: none;  
 }
 
 .input-area > input{
@@ -39,6 +39,7 @@ body{
     width: 25px;
     cursor: pointer;
 }
+
 header{
     display: flex;
     justify-content: space-around;
@@ -64,6 +65,7 @@ header{
 ul > li > a:hover{
     border-bottom: 2px solid;
 }
+
 .buy-button{
     background-color: black;
     color: #fff;
@@ -97,7 +99,6 @@ ul > li > a:hover{
     justify-content: space-around;
     margin-bottom: 40px;
 }
-
 
 nav > ul > li > a{
     text-decoration: none;
@@ -133,7 +134,6 @@ nav > ul > li > a{
     width: 120px;
     height: 120px;
 }
-
 
 .sil{
     margin-left: 35em;
@@ -188,6 +188,7 @@ nav > ul > li > a{
 .silver_image, .gold_img{
     width: 30%;
 }
+
 .silver_image > img, .gold_img > img{
     width:100%;
     height: 600px;
@@ -196,9 +197,11 @@ nav > ul > li > a{
 .coins{
     margin-top: 80px;
 }
+
 .coins > h1{
     font-size: 4rem;
 }
+
 .coins > p{
     word-spacing: 5px;
     margin: 30px 0;
@@ -206,25 +209,30 @@ nav > ul > li > a{
     line-height: 1.7;
     color:hsl(236, 13%, 42%);
 }
+
 .coin_images{
     display:flex;
     width: 75%;
     gap: 20px;
 }
+
 .coin1>img, .coin2>img, .coin3>img, .coin4>img{
     width: 200px;
 }
+
 .gold_bullion{
     background: whitesmoke;
     display: flex;
     padding: 50px;
     width: 100%;
 }
+
 .summary{
     display: flex;
     gap: 20px;
     padding: 100px 20px 0px 20px;
 }
+
 .left, .right{
     display: flex;
     flex-direction: column;
@@ -244,6 +252,7 @@ footer{
     margin-top: 10px;
     border-bottom: 10px ridge;
 }
+
 footer > div{
     width: 25%;
 }
@@ -251,6 +260,7 @@ footer > div{
 footer > div > h2{
     margin-bottom: 20px;
 }
+
 footer > div > div > p{
     line-height: 2.0;
     color: hsl(236, 13%, 42%);
@@ -261,12 +271,14 @@ footer > div > div > p{
     margin-bottom: 20px;
     color: hsl(236, 13%, 42%);
 }
+
 .subscription > input{
     display: block;
     width: 100%;
     padding: 10px 5px;
     margin-bottom: 10px;
 }
+
 .subscription > button{
     width: 100%;
     padding: 10px 0;
@@ -274,34 +286,42 @@ footer > div > div > p{
     background: black;
     color: white;
 }
+
 .daysandtime{
     margin: 40px 0 0 30px;
     display: flex;
     gap: 40px;
 }
+
 .daysandtime > div{
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
+
 .daysandtime > div > p{
     color: hsl(236, 13%, 42%);
 }
+
 .Payment_icons{
     margin: 40px 0 0 60px;
 }
+
 .end{
     background: whitesmoke;
     display: flex;
     padding: 50px 20px;
     width: 100%;
 }
+
 .end_left{
     width: 70%;
 }
+
 .end > div > p{
     color: hsl(236, 13%, 42%);
 }
+
 .coin{
     width: 280px;
     height: 280px;
@@ -310,7 +330,6 @@ footer > div > div > p{
 textarea:focus, input:focus{
     outline: none;
 }
-
 
 .coin-section{
     display: flex !important;
@@ -370,4 +389,108 @@ img > p{
     display: flex;
     gap: 20px;
     justify-content: center;
+}
+
+.buy{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.left_part{
+    display: flex;
+    gap: 25px;
+}
+
+.top > img{
+    width: 400px;
+}
+
+.bottom{
+    display: flex;
+}
+
+.bottom > img{
+    width: 100px;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.description{
+    line-height: 2.0;
+}
+
+.badge > img{
+    width: 400px;
+    margin-top: 20px;
+}
+
+.right_part{
+    width: 25%;
+    height: 40%;
+    background: whitesmoke;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.right_part > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.grid{
+    width: 30%;
+    display: grid;
+    grid-template-areas: 'a a b'
+                         'a a c';
+}
+
+.top_buttons{
+    display: flex;
+    gap: 10px;
+    height: 40px;
+}
+
+.text{
+    grid-area: a;
+    border: none;
+    background: white;
+}
+
+.increase{
+    grid-area: b;
+    padding: 10px;
+    border: none;
+    background: white;
+}
+
+.decrease{
+    grid-area: c;
+    padding: 10px;
+    border: none;
+    background: white;
+}
+
+.add{
+    background: rgba(230, 75, 101, 0.918);
+    box-shadow: 2px 2px 1px rgba(230, 75, 101, 0.918);
+    border: none;
+    padding: 5px 40px;
+    color: white;
+    width: 70%;
+}
+
+.buy_now{
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px;
+    background: green;
+    box-shadow: 2px 2px 1px green;
+    border: none;
+    color: white;
 }
