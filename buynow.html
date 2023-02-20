@@ -80,6 +80,10 @@
             </div>
         </div>
         <div class="right_part">
+            <div id="output">
+
+
+            </div>
            <p>$2,006.23</p> 
            <div class="top_buttons">
               <div class="grid">
@@ -87,9 +91,14 @@
                  <button class="increase">+</button>
                  <button class="decrease">-</button>
               </div>
-              <button class="add">ADD TO CART</button>
+              <button class="add" onclick="clearAll()">ADD TO CART</button>
            </div>
-           <button class="buy_now">BUY NOW</button>
+           <button class="buy_now" onclick="buyNow({
+            name: '1 oz PAMP Suisse Fortuna Veriscan Gold Bar (New w/ Assay)',
+            price: 2006.23,
+            image: 'iimages/buy now images/pamp-suisse-1-oz-gold-bar-front.jpg',
+            quantity: 1
+           })">BUY NOW</button>
         </div>
     </section>
 

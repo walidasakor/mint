@@ -1,7 +1,18 @@
-// const review = document.getElementById("rev")
-// const tog = document.getElementById("tog")
-// const buyFlex = document.getElementById("buy")
+const output = document.getElementById("output")
 
-// review.addEventListener("click", function(){
-//     buyFlex.innerHTML = "I made it";
-// })
+function buyNow(itemDetails) {
+    const itemsInCart = JSON.parse?.(localStorage.getItem("itemsInCart")) || [];
+    itemsInCart.push(itemDetails);
+    localStorage.setItem("itemsInCart", JSON.stringify(itemsInCart));
+    output.innerHTML = localStorage.getItem("itemsInCart")
+  }
+  
+  function viewCart() {
+    const itemsInCart = JSON.parse?.(localStorage.getItem("itemsInCart")) || [];
+    console.log(itemsInCart);
+  }
+
+  function clearAll(){
+    localStorage.removeItem("itemsInCart");
+
+  }
