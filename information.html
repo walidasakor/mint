@@ -298,7 +298,10 @@
 
         <section class="last-section">
             
-            <div></div>
+            <div>
+                <div id="descript"></div>
+                <div id="price"></div>
+            </div>
             <div>
                 <hr>
                 <p>Have a coupon?</p>
@@ -312,5 +315,12 @@
             </div>
         </section>
     </main>
+    <script>
+        const oze = localStorage.getItem("detail");
+        const pricee = localStorage.getItem("amount");
+
+        document.getElementById("descript").textContent = oze
+        document.getElementById("price").textContent = pricee
+    </script>
 </body>
 </html>
