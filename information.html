@@ -17,7 +17,7 @@
         </nav>
     </header>
     <main>
-        <section class="first-section">
+        <form class="first-section">
             <p>Billing details</p>
             <input type="email" placeholder="Email Address *" required class="inp"> <br>
             <div class="name">
@@ -294,12 +294,12 @@
                 <a href="./buynow.html">RETURN TO CART</a>
                 <div><button type="submit">Continue To Shipping</button></div> 
            </div>
-        </section>
+        </form>
 
         <section class="last-section">
             
-            <div>
-                <div id="descript"></div>
+            <div id="info-price">
+                <div id="descript"></div><br>
                 <div id="price"></div>
             </div>
             <div>
@@ -307,20 +307,14 @@
                 <p>Have a coupon?</p>
                 <hr>
 
-                <div>Subtotal <span>$2,063.05</span></div>
-                <div>Shipping <span>Flat rate: $100.00</span></div>
+                <div>Subtotal: </div> <span id="subtotal"></span>
+                <div>Shipping <span id="flat-rate">Flat rate: $100.00</span></div>
                 <hr>
 
-                <div>TOTAL</div>
+                <div id="sum-total">TOTAL</div>
             </div>
         </section>
     </main>
-    <script>
-        const oze = localStorage.getItem("detail");
-        const pricee = localStorage.getItem("amount");
-
-        document.getElementById("descript").textContent = oze
-        document.getElementById("price").textContent = pricee
-    </script>
+    <script src="information.js"></script>
 </body>
 </html>
