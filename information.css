@@ -83,3 +83,12 @@ hr{
     padding: 15px;
     width: 100%;
 }
+
+#info-price{
+    display: flex;
+    gap: 16px;
+}
+
+#subtotal{
+    margin-left: 28em;
+}
