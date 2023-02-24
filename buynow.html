@@ -35,7 +35,7 @@
             <img src="iimages/stacks-gold-coins-white-background-stacks-gold-coins-196399567-removebg-preview.png" alt="">
         </div>
         <div class="info">
-            <h1>1 oz PAMP Suisse Fortuna Veriscan Gold Bar (New w/ Assay)</h1>
+            <h1 id="oz">1 oz PAMP Suisse Fortuna Veriscan Gold Bar (New w/ Assay)</h1>
             <p><a href="index.html" style="color: black">Home</a></p>
         </div>
     </div>
@@ -80,16 +80,20 @@
             </div>
         </div>
         <div class="right_part">
-           <p>$2,006.23</p> 
+            <div id="output">
+
+
+            </div>
+           <p id="price">$2,006.23</p> 
            <div class="top_buttons">
               <div class="grid">
                  <button class="text">1</button>
                  <button class="increase">+</button>
                  <button class="decrease">-</button>
               </div>
-              <button class="add">ADD TO CART</button>
+              <button class="add" onclick="clearAll()">ADD TO CART</button>
            </div>
-           <button class="buy_now">BUY NOW</button>
+            <a href="./information.html"><button class="buy_now" id="buy">BUY NOW</button></a> 
         </div>
     </section>
 
@@ -261,7 +265,7 @@
             </p>
         </div>
 
-<script src="index.js"></script>    
+<script src="buynow.js"></script>    
 
 </body>
 </html>
