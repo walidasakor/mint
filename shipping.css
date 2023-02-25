@@ -17,8 +17,20 @@ body{
         src: url("fonts/jost/Jost-VariableFont_wght.ttf");
     }
 
+form{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.right{
+    width: 100%;
+    margin-right: 20px;
+}
+
 .top > input{
-    border: 1px solid whitesmoke;
+    border: 1px solid rgba(19, 17, 17, 0.192);
+    border-radius: 8px;
     width: 600px;
     padding: 20px;
     display: block;
@@ -29,13 +41,16 @@ body{
     margin-bottom: 30px;
 }
 .middle > input{
-    border: 1px solid whitesmoke;
+    border: 1px solid rgba(19, 17, 17, 0.192);
+    border-radius: 8px;
     width: 600px;
     padding: 20px;
     margin-top: 10px;
 }
+
 .bottom > input{
-    border: 1px solid rgba(245, 245, 245, 0);
+    border: 1px solid rgba(19, 17, 17, 0.192);
+    border-radius: 8px;
     width: 600px;
     padding: 50px 10px;
 }
@@ -54,4 +69,29 @@ footer > a{
     text-decoration: none;
     color: black;
     cursor: pointer;
+}
+
+.right{
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 40px;
+    width: 100%;
+}
+
+span{
+    margin-left: 65%;
+}
+
+hr{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.location{
+    display: flex;
+}
+
+.phone{
+    padding: 15px;
+    width: 100%;
 }
