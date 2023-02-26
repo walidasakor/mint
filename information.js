@@ -12,18 +12,18 @@ function render(name, prize){
     document.getElementById("price").textContent = prize
     document.getElementById("subtotal").textContent = prize
 
-
 }
 
 render(oze, pricee)
 
 const flatRate = document.getElementById("flat-rate").textContent;
 const subTotal = document.getElementById("subtotal").textContent;
-const sumTotal = document.getElementById("sum-total")
+const sumTotal = document.getElementById("sum-total");
+
 
 function totalPrice(sub, flat){
-    const total = sub + flat;
-    sumTotal.textContent = total
+    const total = parseFloat(sub) + parseFloat(flat);
+    sumTotal.textContent = total;
 }
 
 totalPrice(parseFloat(flatRate), parseFloat(subTotal))
