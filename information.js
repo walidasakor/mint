@@ -26,6 +26,6 @@ function totalPrice(sub, flat){
     sumTotal.textContent = total;
 }
 
-totalPrice(flatRate, subTotal)
+totalPrice(parseFloat(flatRate), parseFloat(subTotal))
 
 
