@@ -22,7 +22,7 @@ const sumTotal = document.getElementById("sum-total");
 
 
 function totalPrice(sub, flat){
-    const total = sub + flat;
+    const total = parseFloat(sub) + parseFloat(flat);
     sumTotal.textContent = total;
 }
 
